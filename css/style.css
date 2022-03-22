@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;700&family=Open+Sans:wght@400;500;600&display=swap%27);
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #888;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+
+#herotitle{
+	background-image: url("../img/Services-Title-Image.jpg");
+	text-align: center;
+	color: #F2F2F2;
+	font-weight:700;
+}
+
+#icons{ 
+text-align: center;
+color:#515151;
+marging-bottom:20px;
+padding:40px;
+}
+
+#icons i{
+	font-size: 130px;
+	color:#e0e0e0;
+	text-align:center;
+	
+}
+#info{
+	margin-bottom: 50px;
+	background-color:  #f7f7f7 ;
+}
+#info h4{
+	padding-top:70px;
+	text-align: center
+}
+#info h5{
+	padding-bottom: 70px;
+	text-align:center
+}
+
+#features{
+	padding:30px 0;
+}
+
+.icons-check{
+	color:#0567B9;
+	font-size: 50px;
+}
+
+#fullyresponsive{
+	background-color:#3d4248;
+}
+
+#woocommerce{
+	background-color:#d8d8d8;
+}
+
+#pixelperfect{
+	background-color: #f0f0f0;
+	color:#353535;
+}
+#features{
+	padding:30px;
+	color:#F2F2F2;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+.sectionhero{
+	padding: 150px 0;
+}
